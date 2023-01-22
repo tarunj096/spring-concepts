@@ -1,9 +1,13 @@
 package com.springcore.SpringCoreConcepts.couple;
 
 public class Person {
-    Animal an = new Animal();
+    Animal animal;
+
+    public Person(Animal animal) {
+        this.animal = animal;
+    }
 
     public void playWithAnimal(){
-        an.play();
+        animal.play();
     }
 }
