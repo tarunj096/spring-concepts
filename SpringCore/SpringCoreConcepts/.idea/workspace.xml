@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5e09e4-10d7-4871-9f14-bf271ee944eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/couple/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/couple/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/couple/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/couple/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/couple/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/couple/Dog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/couple/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/couple/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +67,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +105,8 @@
       <workItem from="1673929133206" duration="354000" />
       <workItem from="1673929524523" duration="6697000" />
       <workItem from="1674283506878" duration="2035000" />
-      <workItem from="1674406772589" duration="931000" />
+      <workItem from="1674406772589" duration="1451000" />
+      <workItem from="1674491495391" duration="2763000" />
     </task>
     <servers />
   </component>
@@ -120,7 +124,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>

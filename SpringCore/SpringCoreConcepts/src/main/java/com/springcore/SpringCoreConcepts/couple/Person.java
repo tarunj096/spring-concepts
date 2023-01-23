@@ -1,9 +1,17 @@
 package com.springcore.SpringCoreConcepts.couple;
 
-public class Person {
-    Animal animal;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
-    public Person(Animal animal) {
+@Component
+public class Person {
+
+    //@Qualifier("dog")
+
+     Animal animal;
+    @Autowired()
+    public Person(@Qualifier("dog") Animal animal) {
         this.animal = animal;
     }
 
