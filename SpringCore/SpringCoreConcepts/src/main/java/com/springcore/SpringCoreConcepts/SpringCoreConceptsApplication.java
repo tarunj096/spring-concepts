@@ -34,7 +34,6 @@ public class SpringCoreConceptsApplication {
 		testBean.testing();
 		Animal cat = context.getBean("cat", Animal.class);
 		cat.play();
-
 	}
 
 }
