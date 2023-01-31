@@ -10,12 +10,21 @@ public class Person {
     //@Qualifier("dog")
 
      Animal animal;
+     Student student;
+
+     @Autowired
+     Samosa samosa;
+
     @Autowired()
-    public Person(@Qualifier("dog") Animal animal) {
+    public Person(Animal animal,Student student) {
         this.animal = animal;
+        this.student = student;
+
     }
 
     public void playWithAnimal(){
         animal.play();
+        student.detail();
+        samosa.eat();
     }
 }

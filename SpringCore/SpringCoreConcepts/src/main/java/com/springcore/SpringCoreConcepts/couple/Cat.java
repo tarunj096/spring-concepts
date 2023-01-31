@@ -5,7 +5,8 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 //
 @Component
-@Qualifier("cat")
+//@Qualifier("cat")
+@Primary
 public class Cat implements Animal{
 
     @Override

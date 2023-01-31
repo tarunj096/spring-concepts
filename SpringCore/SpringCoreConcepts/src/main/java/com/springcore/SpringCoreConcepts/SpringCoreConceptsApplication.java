@@ -1,13 +1,11 @@
 package com.springcore.SpringCoreConcepts;
 
-import com.springcore.SpringCoreConcepts.couple.Animal;
-import com.springcore.SpringCoreConcepts.couple.Cat;
-import com.springcore.SpringCoreConcepts.couple.Dog;
-import com.springcore.SpringCoreConcepts.couple.Person;
+import com.springcore.SpringCoreConcepts.couple.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import test.Test;
 
@@ -34,6 +32,13 @@ public class SpringCoreConceptsApplication {
 		testBean.testing();
 		Animal cat = context.getBean("cat", Animal.class);
 		cat.play();
+	}
+
+	//declaring bean using @Bean
+
+	@Bean
+	public Samosa getSamosa(){
+		return new Samosa();
 	}
 
 }
