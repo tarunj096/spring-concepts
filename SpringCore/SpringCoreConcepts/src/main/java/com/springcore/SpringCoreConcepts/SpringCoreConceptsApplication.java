@@ -1,6 +1,7 @@
 package com.springcore.SpringCoreConcepts;
 
 import com.springcore.SpringCoreConcepts.couple.*;
+import com.springcore.SpringCoreConcepts.scope.Pepsi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -25,13 +26,17 @@ public class SpringCoreConceptsApplication {
 //		Person p = new Person(an);
 //		p.playWithAnimal();
 		ApplicationContext context = SpringApplication.run(SpringCoreConceptsApplication.class, args);
-		Person personBean = context.getBean(Person.class);
-		personBean.playWithAnimal();
-		System.out.println(personBean);
-		Test testBean = context.getBean(Test.class);
-		testBean.testing();
-		Animal cat = context.getBean("cat", Animal.class);
-		cat.play();
+//		Person personBean = context.getBean(Person.class);
+//		personBean.playWithAnimal();
+//		System.out.println(personBean);
+//		Test testBean = context.getBean(Test.class);
+//		testBean.testing();
+//		Animal cat = context.getBean("cat", Animal.class);
+//		cat.play();
+		Pepsi bean = context.getBean(Pepsi.class);
+		System.out.println(bean);
+		bean.drink();
+
 	}
 
 	//declaring bean using @Bean
