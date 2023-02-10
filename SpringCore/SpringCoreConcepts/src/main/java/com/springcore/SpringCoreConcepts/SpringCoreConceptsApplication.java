@@ -2,6 +2,7 @@ package com.springcore.SpringCoreConcepts;
 
 import com.springcore.SpringCoreConcepts.couple.*;
 import com.springcore.SpringCoreConcepts.scope.Pepsi;
+import com.springcore.SpringCoreConcepts.scope.Soda;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -33,9 +34,26 @@ public class SpringCoreConceptsApplication {
 //		testBean.testing();
 //		Animal cat = context.getBean("cat", Animal.class);
 //		cat.play();
-		Pepsi bean = context.getBean(Pepsi.class);
-		System.out.println(bean);
-		bean.drink();
+//		Pepsi bean = context.getBean(Pepsi.class);
+//		System.out.println(bean);
+//		bean.drink();
+//
+//		Pepsi bean1 = context.getBean(Pepsi.class);
+//		System.out.println(bean1);
+//
+//		Pepsi bean2 = context.getBean(Pepsi.class);
+//		System.out.println(bean2);
+
+//		Pepsi pepsi = context.getBean(Pepsi.class);
+//		System.out.println(pepsi);
+//		Soda soda = pepsi.getSoda();
+//		System.out.println(soda);
+//
+//		Pepsi pepsi1 = context.getBean(Pepsi.class);
+//		System.out.println(pepsi1);
+//		Soda soda1 = pepsi1.getSoda();
+//		System.out.println(soda1);
+
 
 	}
 

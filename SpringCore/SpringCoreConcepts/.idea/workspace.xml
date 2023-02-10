@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5e09e4-10d7-4871-9f14-bf271ee944eb" name="Default Changelist" comment="Dependency Management">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/BeanScopes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/scope/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/lifecycle/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/scope/Soda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/scope/Pepsi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/scope/Pepsi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/scope/Pepsi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/scope/Pepsi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +51,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14044946" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springcore.SpringCoreConcepts.scope" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.SpringCoreConceptsApplication">
     <configuration name="SpringCoreConceptsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.core.SpringCoreConcepts.SpringCoreConceptsApplication" />
@@ -61,13 +70,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,7 +116,8 @@
       <workItem from="1674823617740" duration="3891000" />
       <workItem from="1675163242980" duration="2510000" />
       <workItem from="1675266775075" duration="610000" />
-      <workItem from="1675860236884" duration="1782000" />
+      <workItem from="1675860236884" duration="2351000" />
+      <workItem from="1676011821331" duration="5523000" />
     </task>
     <task id="LOCAL-00001" summary="Dependency Management">
       <created>1674666387212</created>
