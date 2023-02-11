@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5e09e4-10d7-4871-9f14-bf271ee944eb" name="Default Changelist" comment="Dependency Management">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/lifecycle/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/scope/Soda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/couple/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/scope/Pepsi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/SpringCoreConcepts/scope/Pepsi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/scope/Pepsi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcore/SpringCoreConcepts/scope/Pepsi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCoreConcepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCoreConcepts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springcore/SpringCoreConcepts/SpringCoreConceptsApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.14044946" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "e3b19a7ef96957b943be65e42e158a6f",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.springcore.SpringCoreConcepts.scope" />
@@ -66,19 +54,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,7 +92,9 @@
       <workItem from="1675163242980" duration="2510000" />
       <workItem from="1675266775075" duration="610000" />
       <workItem from="1675860236884" duration="2351000" />
-      <workItem from="1676011821331" duration="5523000" />
+      <workItem from="1676011821331" duration="7134000" />
+      <workItem from="1676081293537" duration="1004000" />
+      <workItem from="1676128057562" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="Dependency Management">
       <created>1674666387212</created>
@@ -154,7 +131,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dependency Management" />
